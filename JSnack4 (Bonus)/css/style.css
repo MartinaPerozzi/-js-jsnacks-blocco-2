@@ -1,0 +1,46 @@
+.speech-bubble {
+    width: 160px;
+    height: 100px;
+    background-color: #00aabb;
+    position: relative;
+    border-radius: 1rem;
+    font-size: 3rem;
+    font-family: 'Quicksand', sans-serif;
+
+}
+
+.speech-bubble:after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 0;
+    height: 0;
+    border: 20px solid transparent;
+    border-top-color: #00aabb;
+    border-bottom: 0;
+    border-left: 0;
+    margin-left: -10px;
+    margin-bottom: -20px;
+}
+
+.bubble-two {
+    transform: scaleX(-1);
+}
+
+.bubble-two>.speech-bubble {
+    background-color: #d796ea;
+}
+
+.bubble-two>.speech-bubble:after {
+    border-top-color: #d796ea;
+}
+
+.message-two {
+    text-align: right;
+
+}
+
+.help-btn {
+    background-color: #d796ea;
+}
