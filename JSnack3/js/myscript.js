@@ -9,8 +9,8 @@ const displayId = document.querySelector("h2").innerHTML = odds;
 
 // Sommare
 let somma = 0;
-for (i = 0; i < odds.length; i++) {
+// Per l'intero ciclo
+for (let i = 0; i < odds.length; i++) {
     somma += odds[i];
     console.log(somma);
-
 }
