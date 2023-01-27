@@ -13,4 +13,6 @@ let somma = 0;
 for (let i = 0; i < odds.length; i++) {
     somma += odds[i];
     console.log(somma);
+    document.querySelector("h2").innerHTML += " Il risultato è " + somma + " . ";
+
 }
