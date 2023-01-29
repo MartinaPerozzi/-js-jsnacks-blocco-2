@@ -5,7 +5,7 @@ const message = document.querySelector(".message").innerHTML = "I'm longer! " + 
 const secondArr = [12, 56, 88, 23, 56, 98, 12, 34];
 let messageTwo = document.querySelector(".message-two").innerHTML = secondArr;
 
-let somma = (firstArr.length - secondArr.length);
+let sottrazione = (firstArr.length - secondArr.length);
 
 // Button per risultato
 const helpButton = document.querySelector(".help-btn");
@@ -16,9 +16,9 @@ helpButton.addEventListener(
     function () {
 
 
-        for (i = 0; i < somma; i++) {
+        for (i = 0; i < sottrazione; i++) {
 
-            secondArr.push(10);
+            secondArr.push(i + 10);
             console.log(secondArr);
             messageTwo = document.querySelector(".message-two").innerHTML = "Happy face " + secondArr;
             document.querySelector(".smile").innerHTML = ":)";
