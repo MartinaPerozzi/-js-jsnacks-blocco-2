@@ -22,11 +22,11 @@ buttonProceed.addEventListener(
 
             if (currentNumber % 2 == 0) {
 
-                textRed.innerHTML += currentNumber;
+                textRed.innerHTML += " - " + currentNumber;
                 console.log(textRed);
 
             } else if (currentNumber % 2 != 0) {
-                textGreen.innerHTML += currentNumber;
+                textGreen.innerHTML += " - " + currentNumber;
 
             }
         }
